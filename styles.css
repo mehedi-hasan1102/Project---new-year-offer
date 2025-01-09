@@ -21,6 +21,7 @@ body {
 }
 
 .text-content-gray {
+    
 }
 
 .text-content-black {
@@ -37,18 +38,20 @@ body {
 
   background: rgb(255, 0, 0);
   /* Frame 1 */
-  
+
   width: 167px;
   height: 56px;
   /* Auto layout */
- 
+
   gap: 10;
   padding: 16px 32px 16px 32px;
 }
 
 /* id  */
 
-/* section-style */
+/* All section-style */
+  
+/* banner-style */
 
 .banner-background {
   position: relative;
@@ -79,7 +82,42 @@ body {
   margin: 0;
 }
 
-/* footer  */
+
+/* discount */
+.discount{ background-color: white;
+    
+  text-align: center;
+  padding: 20px 0;
+  min-height: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.discount-img {
+  width: 50%;
+  height:50%;
+  object-fit: cover;}
+
+.section-title {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    margin-bottom: -10px;
+}
+
+.section-subtitle {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.section-text{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* footer */
 
 .footer-section {
   background: #070211;
