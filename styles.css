@@ -21,7 +21,6 @@ body {
 }
 
 .text-content-gray {
-    
 }
 
 .text-content-black {
@@ -50,7 +49,7 @@ body {
 /* id  */
 
 /* All section-style */
-  
+
 /* banner-style */
 
 .banner-background {
@@ -82,10 +81,10 @@ body {
   margin: 0;
 }
 
-
 /* discount */
-.discount{ background-color: white;
-    
+.discount {
+  background-color: white;
+
   text-align: center;
   padding: 20px 0;
   min-height: 100px;
@@ -94,28 +93,86 @@ body {
 
 .discount-img {
   width: 40%;
-  height:40%;
-  object-fit: cover;}
+  height: 40%;
+  object-fit: cover;
+}
 
 .section-title {
-    color: rgb(255, 0, 0);
-    font-family: "Inter", sans-serif;
-    font-size: 60px;
-    margin-bottom: -10px;
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  margin-bottom: -10px;
 }
 
 .section-subtitle {
-    color: rgb(255, 0, 0);
-    font-family: "Inter", sans-serif;
-    font-size: 13px;
-    font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.section-text{
-    color: black;
-    font-family: "Inter", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+.section-text {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* welcome-style */
+.welcome {
+  position: relative;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("images/Vectorrr.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  font-family: "Merriweather", sans-serif;
+  display: flex;
+}
+/* offer */
+
+.offer {
+  display: flex;
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  min-height: 100px;
+  font-family: "Inter", sans-serif;
+}
+/* holiday */
+
+/* fifty  */
+
+.fifty{
+    height: 600px;
+}
+
+.fifty-banner { 
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    background-image: url(images/Rectangle\ 2.png);
+    font-family: "Merriweather", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.fifty-img-part-1 {
+  display: flex;
+  
+}
+.fifty-box{width: 300px;}
+/* gift-card */
+.gift-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 /* footer */
 
