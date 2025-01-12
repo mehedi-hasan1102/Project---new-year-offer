@@ -34,16 +34,26 @@ body {
 
 .btn {
   border-radius: 8px;
-
   background: rgb(255, 0, 0);
-  /* Frame 1 */
-
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   width: 167px;
   height: 56px;
-  /* Auto layout */
+  line-height: 24px;
+  padding: 16px 32px;
+  gap: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
 
-  gap: 10;
-  padding: 16px 32px 16px 32px;
+.btn:hover {
+  background: rgb(200, 0, 0);
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* id  */
@@ -122,13 +132,34 @@ body {
 .welcome {
   position: relative;
   background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
-    url("images/Vectorrr.png");
+    url("./images/Vectorrr.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
   color: white;
   font-family: "Merriweather", sans-serif;
   display: flex;
+}
+.welcome-img {
+  margin-top: 50px;
+  width: 50%;
+  height: 50%;
+  
+  
+}
+.welcome-content {
+  margin-top: 180px;
+}
+.welcome-content h1 {
+  font-size: 2.5rem;
+  margin: 0.5em 0;
+}
+.welcome-content p {
+  font-size: 1.5rem;
+  margin: 0.5em 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
 /* offer */
 
