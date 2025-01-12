@@ -71,6 +71,7 @@ body {
   height: 100vh;
   color: white;
   font-family: "Merriweather", sans-serif;
+  border-radius: 30px;
 }
 
 .banner-content {
@@ -139,6 +140,7 @@ body {
   color: white;
   font-family: "Merriweather", sans-serif;
   display: flex;
+  border-radius: 30px;
 }
 .welcome-img {
   margin-top: 50px;
@@ -161,6 +163,32 @@ body {
   margin-bottom: 20px;
   color: white;
 }
+
+/* place  */
+
+.place {
+  background-color:white;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  font-family: Arial, sans-serif;
+}
+
+.place-text {
+  font-size: 28px;
+  color: #333;
+  margin: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.place-spane {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
 /* offer */
 
 .offer {
