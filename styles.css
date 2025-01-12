@@ -15,21 +15,28 @@ body {
 }
 
 .text-title {
+  color: #070211;
 }
 
 .text-subtitle {
+  color: black;
 }
 
+
 .text-content-gray {
+  color: gray;
 }
 
 .text-content-black {
+  color: #070211;
 }
 
 .text-content-white {
+  color: white;
 }
 
 .banner-subtitle-red {
+  color: #ff0000;
 }
 
 .btn {
@@ -190,16 +197,99 @@ body {
 }
 
 /* offer */
-
 .offer {
   display: flex;
-  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.offer div {
+  flex: 1;
+  min-width: 250px;
   text-align: center;
-  padding: 20px 0;
-  min-height: 100px;
-  font-family: "Inter", sans-serif;
+}
+
+.offer h6 {
+  font-size: 14px;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.offer h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.offer p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.offer img {
+  max-width: 100%;
+  height: auto;
+  
+  border-radius: 50%;
+  margin-top: 5px;
+
+  
+}
+
+.circle {
+  border: 10px solid red;
+  border-radius: 50%;
 }
 /* holiday */
+.holiday {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff7e6;
+  border-radius: 8px;
+  border: 1px solid #ffd966;
+  font-family: Arial, sans-serif;
+
+  margin-top: 40px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.holiday h2 {
+  font-size: 28px;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.holiday h6 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.holiday p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+
+
+
+
 
 /* fifty  */
 
