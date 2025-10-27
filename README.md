@@ -1,6 +1,6 @@
 ﻿# New Year Offer
 
-Check out our live link: https://hasancodex.github.io/Project---new-year-offer/
+Check out our live link: https://mehedi-hasan1102.github.io/Project---new-year-offer/
 
 ## Project Details
 
@@ -15,4 +15,5 @@ This project is built using the following technologies:
 - **GitHub Pages**: Hosting the live version of the project.
 
 Stay tuned for more updates and offers!
+
 
